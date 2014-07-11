@@ -13,6 +13,7 @@
 INSTALLDIR=~
 CORESCOUNT=$(cat /proc/cpuinfo | grep 'core id' | wc -l)
 # INSTALLDIR=/tmp
+WAIT=15
 
 clear
 echo "||==============================================================================================================||"
@@ -22,9 +23,9 @@ echo "||	Minetest will be installed at $(echo ~)/Minetest.							||"
 echo "||	Please, run InstallMinetest.sh before running this script. Otherwise, this script will fail!		||"
 echo "||	Press ctrl + c at any moment to cancel this script.							||"
 echo "||==============================================================================================================||"
-echo "||	Press ctrl + c to cancel or wait 15 seconds to continue.						||"
+echo "||	Press ctrl + c to cancel or wait $WAIT seconds to continue.						||"
 echo "||==============================================================================================================||"
-sleep 1
+sleep $WAIT
 
 cd $INSTALLDIR/Minetest/
 
