@@ -75,5 +75,5 @@ cd $INSTALLDIR
 #  cd ..
   cd $INSTALLDIR/Minetest
   echo "||========= Your Minetest is installed in $(pwd)."
-  echo "||========= All done! Type ./bin/minetest and press enter to run Minetest!"
+#  echo "||========= All done! Type /$INSTALLDIR/Minetest/bin/minetest and press enter to run Minetest!"
 #  rm -rf /tmp/Minetest

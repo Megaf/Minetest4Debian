@@ -30,5 +30,5 @@ echo "||========================================================================
 sleep $WAIT
 
 echo "||====== Removing Minetest"
-rm -rf ~/Minetest
+rm -rf $INSTALLDIR/Minetest
 echo "||====== Done."
