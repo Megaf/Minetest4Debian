@@ -40,10 +40,10 @@ cd $INSTALLDIR
     cd games
     echo "||========= Downloading the default Minetest game from Minetest. From https://github.com/minetest/minetest_game"
     git clone https://github.com/minetest/minetest_game.git
-    echo "||========= Downloading a PiXel Art game for Minetest. From https://github.com/Megaf/Pixel"
-    git clone https://github.com/Megaf/Pixel.git
-    echo "||========= Downloading a lightweight game for Minetest. From https://github.com/Megaf/RPi"
-    git clone https://github.com/Megaf/RPi.git
+    # echo "||========= Downloading a PiXel Art game for Minetest. From https://github.com/Megaf/Pixel"
+    # git clone https://github.com/Megaf/Pixel.git
+    # echo "||========= Downloading a lightweight game for Minetest. From https://github.com/Megaf/RPi"
+    # git clone https://github.com/Megaf/RPi.git
     cd ..
     
     echo "||========= Preparing Minetest to be compiled."
